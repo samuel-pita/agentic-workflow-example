@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inteligencia Artificial, enfocada en Claude — GIGA IT</title>
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/webp" sizes="32x32" href="../assets/favicon-32.webp">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon-192.png">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+
+  <!-- Fuentes (única carga externa) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══ Header: logo + pestañas de tema ══ -->
+  <header class="app-header">
+    <a class="brand" href="#inicio/portada" aria-label="GIGA IT — inicio">
+      <img src="../assets/Logo-GIGA-IT_2024-interno-color.svg" alt="GIGA IT" class="brand-logo">
+    </a>
+    <nav id="mainTabs" class="main-tabs" aria-label="Temas">
+      <button class="mtab" data-topic="inicio">Inicio</button>
+      <button class="mtab" data-topic="intro">Introducción</button>
+      <button class="mtab" data-topic="claude-code">Claude Code</button>
+      <button class="mtab" data-topic="workflow">Workflow</button>
+      <button class="mtab" data-topic="prerequisitos">Prerequisitos</button>
+      <button class="mtab" data-topic="caso">Caso</button>
+    </nav>
+  </header>
+
+  <!-- ══ Stage: los temas y sus slides ══ -->
+  <main id="stage" class="stage">
+
+    <!-- 00 · Inicio -->
+    <section class="panel" data-topic="inicio">
+      <div class="slide cover" data-title="Portada">
+        <span class="cover-index">00</span>
+        <h1 class="cover-title">Inteligencia Artificial, enfocada en <span class="accent">Claude</span></h1>
+      </div>
+    </section>
+
+    <!-- 01 · Introducción -->
+    <section class="panel" data-topic="intro">
+      <div class="slide cover" data-title="Portada">
+        <span class="cover-index">01</span>
+        <h1 class="cover-title">Introducción a la IA</h1>
+      </div>
+    </section>
+
+    <!-- 02 · Capacidades Agénticas -->
+    <section class="panel" data-topic="claude-code">
+      <div class="slide cover" data-title="Portada">
+        <span class="cover-index">02</span>
+        <h1 class="cover-title">Capacidades Agénticas</h1>
+      </div>
+    </section>
+
+    <!-- 03 · Workflow Loop -->
+    <section class="panel" data-topic="workflow">
+      <div class="slide cover" data-title="Portada">
+        <span class="cover-index">03</span>
+        <h1 class="cover-title">Workflow Loop</h1>
+      </div>
+    </section>
+
+    <!-- 04 · Prerequisitos -->
+    <section class="panel" data-topic="prerequisitos">
+      <div class="slide cover" data-title="Portada">
+        <span class="cover-index">04</span>
+        <h1 class="cover-title">Prerequisitos</h1>
+      </div>
+    </section>
+
+    <!-- 05 · Caso de estudio -->
+    <section class="panel" data-topic="caso">
+      <div class="slide cover" data-title="Portada">
+        <span class="cover-index">05</span>
+        <h1 class="cover-title">Caso de estudio</h1>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ Barra inferior: subpestañas + navegación ══ -->
+  <footer class="app-footer">
+    <div id="subTabs" class="sub-tabs" role="tablist" aria-label="Slides del tema"></div>
+    <div class="nav-controls">
+      <button id="prevBtn" class="nav-btn" aria-label="Slide anterior">‹ Anterior</button>
+      <div id="dots" class="dots" aria-hidden="true"></div>
+      <button id="nextBtn" class="nav-btn" aria-label="Slide siguiente">Siguiente ›</button>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
